@@ -1,0 +1,47 @@
+:root {
+  --preto: #303030;
+  --roxo: #7b17fd;
+}
+.caixa-topo a {
+  color: var(--roxo);
+}
+.caixa-topo {
+  z-index: 1000;
+  position: fixed;
+  max-width: 100%;
+  width: 100%;
+}
+.caixa-topo,
+.titulo-curso,
+.link-curso {
+  border-bottom: 3px solid var(--roxo);
+  height: 70px;
+  color: var(--preto);
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+  background: rgb(255, 209, 2);
+  align-items: center;
+}
+.link-curso,
+.titulo-curso {
+  position: relative;  
+  top: 1px;
+}
+.link-curso:hover {
+  color: var(--roxo);
+  border-bottom: 3px solid #ff00f2;
+}
+
+strong {
+  margin-right: 10px;
+  color: var(--preto);
+}
+ion-icon {
+  font-size: 1.7rem;
+  margin-right: 10px;
+  color: var(--preto);
+}
+.titulo-curso {
+}
