@@ -1,0 +1,27 @@
+@media screen and (max-width: 1200px){
+    .banner-login {
+
+    }
+}
+
+@media screen and (max-width: 700px){
+    .caixa-topo {
+        padding: 0;
+
+    }
+    .link-curso {
+        display: none;
+        
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    .banner-login {
+        display: none;
+
+    }
+    .login-form {
+        width: 100%;
+    }
+}

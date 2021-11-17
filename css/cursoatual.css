@@ -23,6 +23,7 @@
   padding: 10px 40px;
   background: rgb(255, 209, 2);
   align-items: center;
+  white-space: nowrap;
 }
 .link-curso,
 .titulo-curso {
