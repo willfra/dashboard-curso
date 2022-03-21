@@ -2,8 +2,13 @@
   --preto: #303030;
   --roxo: #7b17fd;
 }
+* {
+
+}
 .caixa-topo a {
   color: var(--roxo);
+  list-style: none;
+  text-decoration: none;
 }
 .caixa-topo {
   z-index: 1000;
@@ -30,11 +35,13 @@
   position: relative;  
   top: 1px;
 }
-.link-curso:hover {
+.link-curso:hover{
   color: var(--roxo);
   border-bottom: 3px solid #ff00f2;
 }
-
+.link-curso:hover ion-icon {
+  color: var(--roxo);
+}
 strong {
   margin-right: 10px;
   color: var(--preto);
