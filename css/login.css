@@ -10,6 +10,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    min-width: 400px;
 }
 .login-form img {
     width: 350px;
@@ -71,3 +72,4 @@
     transform: scale(1.02);
     background: linear-gradient(40deg, #478cff, #80afff);
 }
+

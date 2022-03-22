@@ -11,15 +11,24 @@
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="./css/cursoatual.css" />
+    <link rel="stylesheet" href="./css/dracula-theme.css">
 </head>
 
-<body>
+<body class="dracula-theme">
     <!-- BARRA TOPO CURSO ATUAL -->
     <div>
         <div class="caixa-topo">
-            <div class="titulo-curso">
-                <ion-icon name="code-slash-outline"> </ion-icon><strong>Dashboard com HTML, CSS e JS</strong><b> Erick
-                    Vieira • Youtube</b>
+            <div class="item-menu_esquerda">
+
+                <div class="dark-light">
+                    <ion-icon id="tema-night" class="botao-dark-light" name="sunny"></ion-icon>
+                    <ion-icon id="tema-light" class="botao-dark-light" name="moon"></ion-icon>
+                </div>
+                <div class="titulo-curso">
+                    <ion-icon name="code-slash-outline"> </ion-icon><strong>Dashboard com HTML, CSS e JS</strong><b>
+                        Erick
+                        Vieira • Youtube</b>
+                </div>
             </div>
             <a href="https://www.youtube.com/watch?v=cC7CwOSG_kE" target="_blank">
                 <div class="link-curso">
@@ -56,7 +65,7 @@
             </div>
         </div>
         <div class="banner-login">
-            
+
             <div class="fundo-img-banner">
                 <img src="./img/google-play-wallpaper.jpg" alt="" srcset="" />
             </div>
@@ -69,6 +78,16 @@
     <!-- ICONS -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    <script>
+        const light = document.querySelector(".dark-light")
+        light.addEventListener('click', tema_light)
+
+        function tema_light() {
+            document.querySelector("body").classList.toggle("dracula-theme")
+        }
+    </script>
 </body>
 
 </html>
