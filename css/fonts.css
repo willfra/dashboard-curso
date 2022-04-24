@@ -3,11 +3,13 @@
     src: url('../fonts/Lato/Lato-Regular.ttf');
     font-weight: normal;
 }
+
 @font-face {
     font-family: 'Lato';
     src: url('../fonts/Lato/Lato-Bold.ttf');
     font-weight: 600;
 }
+
 @font-face {
     font-family: 'Lato';
     src: url('../fonts/Lato/Lato-Light.ttf');
@@ -21,11 +23,13 @@
     src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
     font-weight: normal;
 }
+
 @font-face {
     font-family: 'Montserrat';
     src: url('../fonts/Montserrat/Montserrat-Bold.ttf');
     font-weight: 600;
 }
+
 @font-face {
     font-family: 'Montserrat';
     src: url('../fonts/Montserrat/Montserrat-Light.ttf');
@@ -39,11 +43,13 @@
     src: url('../fonts/Poppins/Poppins-Regular.ttf');
     font-weight: normal;
 }
+
 @font-face {
     font-family: 'Poppins';
     src: url('../fonts/Poppins/Poppins-Bold.ttf');
     font-weight: 600;
 }
+
 @font-face {
     font-family: 'Poppins';
     src: url('../fonts/Poppins/Poppins-Light.ttf');
@@ -57,11 +63,13 @@
     src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf');
     font-weight: normal;
 }
+
 @font-face {
     font-family: 'Ubuntu';
     src: url('../fonts/Ubuntu/Ubuntu-Bold.ttf');
     font-weight: 600;
 }
+
 @font-face {
     font-family: 'Ubuntu';
     src: url('../fonts/Ubuntu/Ubuntu-Light.ttf');

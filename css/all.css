@@ -1,7 +1,23 @@
 @import url("../css/fonts.css");
-@import url("../css/reset.css");
+@import url("../css/theme.css");
 @import url("../css/login.css");
-@import url("../css/config.css");
 @import url("../css/responsive.css");
 
+/* RESET */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* CONFIG*/
+
+body {
+    font-family: 'Ubuntu';
+    color: var(--Preto);
+}

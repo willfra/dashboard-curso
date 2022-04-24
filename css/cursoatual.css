@@ -1,18 +1,4 @@
-:root {
-  --preto: #303030;
-  --roxo: #7b17fd;
-  --Background: #282a36;
-  --Current-Line: #44475a;
-  --Foreground: #f8f8f2;
-  --Comment: #6272a4;
-  --Cyan: #8be9fd;
-  --Green: #50fa7b;
-  --Orange: #ffb86c;
-  --Pink: #ff79c6;
-  --Purple: #bd93f9;
-  --Red: #ff5555;
-  --Yellow: #f1fa8c;
-}
+@import url("../css/theme.css");
 
 .dracula-theme .caixa-topo,
 .dracula-theme .titulo-curso,
@@ -39,13 +25,14 @@
 .dracula-theme .link-curso {
   color: var(--Foreground);
 }
+
 .dracula-theme strong {
   color: var(--Purple);
 }
 
 
 .caixa-topo a {
-  color: var(--roxo);
+  color: var(--Purple);
   list-style: none;
   text-decoration: none;
 }
@@ -60,18 +47,19 @@
 .caixa-topo,
 .titulo-curso,
 .link-curso {
-  border-bottom: 3px solid var(--roxo);
+  border-bottom: 3px solid var(--Purple);
   height: 70px;
-  color: var(--preto);
+  color: var(--Preto);
   font-family: "Arial", sans-serif;
   display: flex;
   justify-content: space-between;
   padding: 10px 40px;
-  background: rgb(255, 209, 2);
+  background: var(--White);
   align-items: center;
   white-space: nowrap;
   flex-direction: row;
 }
+
 .item-menu_esquerda {
   display: flex;
   flex-direction: row;
@@ -79,14 +67,18 @@
   align-items: center;
   justify-content: center;
 }
-.item-menu_esquerda .dark-light ion-icon{
+
+.item-menu_esquerda .dark-light ion-icon {
   margin-top: 5px;
   margin-right: 30px;
   cursor: pointer;
 }
-.item-menu_esquerda .dark-light #tema-light:hover{
-  color: var(--roxo);
+
+.item-menu_esquerda .dark-light #tema-light:hover {
+  color: var(--Purple);
 }
+
+
 .link-curso,
 .titulo-curso {
   position: relative;
@@ -96,28 +88,28 @@
 }
 
 .link-curso:hover {
-  color: var(--roxo);
-  border-bottom: 3px solid #ff00f2;
+  color: var(--Purple);
+  border-bottom: 3px solid var(--Pink);
 }
 
 .link-curso:hover ion-icon {
-  color: var(--roxo);
+  color: var(--Purple);
 }
 
 strong {
   margin-right: 10px;
-  color: var(--preto);
+  color: var(--Purple);
 }
 
 b {
-  color: var(--preto);
+  color: var(--Preto);
   font-weight: 500;
 }
 
 ion-icon {
   font-size: 1.7rem;
   margin-right: 10px;
-  color: var(--preto);
+  color: var(--Preto);
 }
 
 .titulo-curso {}
@@ -133,6 +125,7 @@ ion-icon {
     display: none;
   }
 }
+
 #tema-night {
   opacity: 0;
   margin-right: -30px;
@@ -141,10 +134,12 @@ ion-icon {
 #tema-light {
   opacity: 1;
 }
+
 .dracula-theme #tema-night {
   z-index: 900;
   opacity: 1;
 }
+
 .dracula-theme #tema-light {
   opacity: 0;
 }
